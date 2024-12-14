@@ -11,7 +11,7 @@ public class testThread {
 		Thread trThread=new Thread(myThread2);
 		mythread1.start();
 		trThread.start();
-		
+		System.out.println("Main method Ended ");
 		
 		System.out.println("Main method Ended ");
 	}
